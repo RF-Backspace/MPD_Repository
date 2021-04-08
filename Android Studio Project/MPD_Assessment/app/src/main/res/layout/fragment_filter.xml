@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Student Name: Xiaobin Ma; Student Number: S1803078  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/dark_blue"
+        android:text="Search"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="create by S1803078"
+        android:background="@color/dark_blue"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="13dp"
+        />
+    <Button
+        android:id="@+id/start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select start date"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select End date"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will test date1"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will test date2"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/most_north"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show Most Northerly earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+
+    <TextView
+        android:id="@+id/most_south"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show Most South earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+    <TextView
+        android:id="@+id/most_west"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show Most West earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+    <TextView
+        android:id="@+id/most_east"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show Most East earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+    <TextView
+        android:id="@+id/largest_magnitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show the largest magnitude earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+
+    <TextView
+        android:id="@+id/deepest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show deepest earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+    <TextView
+        android:id="@+id/shallowest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will show shallowest earthquake"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data from British Geological feed"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1"
+        />
+
+</LinearLayout>

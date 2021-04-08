@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Student Name: Xiaobin Ma; Student Number: S1803078  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home" />
+
+    <item
+        android:id="@+id/search"
+        android:title="F4ilter"
+        android:icon="@drawable/ic_baseline_filter_alt" />
+
+    <item
+        android:id="@+id/map"
+        android:title="Map"
+        android:icon="@drawable/ic_baseline_map" />
+
+</menu>

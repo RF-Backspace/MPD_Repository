@@ -1,0 +1,8 @@
+<!-- Student Name: Xiaobin Ma; Student Number: S1803078  -->
+<resources>
+    <string name="app_name">EarthQuakeApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCyEZPIWh0aE0LTLiiSo_2XYwSnrdcF0Rs</string>
+
+</resources>
